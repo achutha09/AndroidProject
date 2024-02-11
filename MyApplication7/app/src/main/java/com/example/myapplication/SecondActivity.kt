@@ -10,6 +10,6 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_two)
 
         val textViewChallenges = findViewById<TextView>(R.id.textViewChallenges)
-        textViewChallenges.text = getString(R.string.challenges_list)
+        textViewChallenges.text = getString(R.string.mobile_software_engineering_challenges_list)
     }
 }
