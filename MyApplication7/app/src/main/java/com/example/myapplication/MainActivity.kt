@@ -10,17 +10,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val startExplicitlyButton: Button = findViewById(R.id.startExplicitlyButton)
-        val startImplicitlyButton: Button = findViewById(R.id.startImplicitlyButton)
+        val explicitlyButton: Button = findViewById(R.id.startExplicitlyButton)
+        val implicitlyButton: Button = findViewById(R.id.startImplicitlyButton)
 
         // Set click listener for "Start Activity Explicitly" button
-        startExplicitlyButton.setOnClickListener {
+        explicitlyButton.setOnClickListener {
             val explicitIntent = Intent(this, SecondActivity::class.java)
             startActivity(explicitIntent)
         }
 
         // Set click listener for "Start Activity Implicitly" button
-        startImplicitlyButton.setOnClickListener {
+        implicitlyButton.setOnClickListener {
             val implicitIntent = Intent("com.example.assignmentapp.START_SECOND_ACTIVITY")
             startActivity(implicitIntent)
         }

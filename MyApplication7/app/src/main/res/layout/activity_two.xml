@@ -12,7 +12,7 @@
         android:id="@+id/Mobile_Software_Engineering"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Name: Mobile Software Engineering"
+        android:text="Mobile Software Engineering"
         android:textSize="18sp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"/>
@@ -22,7 +22,7 @@
         android:id="@+id/textViewChallenges"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/challenges_list"
+        android:text="@string/mobile_software_engineering_challenges_list"
         android:textSize="18sp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"

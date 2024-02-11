@@ -1,17 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="challenges_list">
+    <string name="mobile_software_engineering_challenges_list">
     Challenges:\n
-    \u2022 Device Fragmentation\n
-    \u2022 Performance Optimization\n
+
+    \u2022 App Store Approval Process\n
+    \u2022 User Engagement and Retention\n
     \u2022 Battery Consumption\n
     \u2022 Network Issues\n
     \u2022 Security Concerns\n
     \u2022 User Interface Design\n
     \u2022 Platform-specific Development\n
-    \u2022 Data Synchronization\n
-    \u2022 App Store Approval Process\n
-    \u2022 User Engagement and Retention
+     \u2022 Device Fragmentation\n
+    \u2022 Performance Optimization\n
+    \u2022 Data Synchronization
 </string>
 
 
