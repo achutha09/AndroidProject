@@ -14,7 +14,14 @@
     \u2022 Performance Optimization\n
     \u2022 Data Synchronization
 </string>
-
+    <string name="capture_image">Capture Image</string>
+    <string name="captured_image_description">Captured Image</string>
+    <string name="full_name_achutha_chitihmalli">Full Name: Achutha chitihmalli</string>
+    <string name="student_id_1467500">Student ID: 1467500</string>
+    <string name="start_activity_explicitly">Start Activity Explicitly</string>
+    <string name="start_activity_explicitly_e">Start Activity Explicitly</string>
+    <string name="view_image_activity">View Image Activity</string>
+    <string name="start_activity_implicitly">Start Activity Implicitly</string>
 
 
 </resources>

@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!-- TextView to display full name -->
     <TextView
         android:id="@+id/textViewFullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Name: Achutha chitihmalli"
+        android:text="@string/full_name_achutha_chitihmalli"
         android:textSize="18sp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"/>
 
-    <!-- TextView to display student ID -->
     <TextView
         android:id="@+id/textViewStudentID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student ID: 1467500"
+        android:text="@string/student_id_1467500"
         android:textSize="18sp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"/>
@@ -30,17 +27,25 @@
         android:id="@+id/startExplicitlyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start Activity Explicitly"
+        android:text="@string/start_activity_explicitly"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"/>
 
-    <!-- Button to start the second activity implicitly -->
     <Button
         android:id="@+id/startImplicitlyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start Activity Implicitly"
+        android:text="@string/start_activity_implicitly"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/viewImageActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_image_activity"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
 
 </LinearLayout>
