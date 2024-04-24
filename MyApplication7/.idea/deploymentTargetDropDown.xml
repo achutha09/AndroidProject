@@ -2,13 +2,22 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="All Tests">
+      <entry key="ExampleInstrumentedTest">
         <State />
       </entry>
-      <entry key="MainActivity">
+      <entry key="MainActivityTest">
         <State />
       </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="testCaptureImageButton()">
+        <State />
+      </entry>
+      <entry key="testChallengesDisplayed()">
+        <State />
+      </entry>
+      <entry key="testStartActivityExplicitly()">
         <State />
       </entry>
     </value>
